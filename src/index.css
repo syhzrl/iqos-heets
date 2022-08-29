@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Cabin-Regular';
+    src: url('./assets/fonts/Cabin-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Cabin-Medium';
+    src: url('./assets/fonts/Cabin-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Cabin-Semibold';
+    src: url('./assets/fonts/Cabin-SemiBold.ttf') format('truetype');
+}
+
+* {
+    font-family: 'Cabin-Regular';
+}
