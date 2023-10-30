@@ -1,13 +1,13 @@
 const dev = {
-    baseUrl: 'http://54.255.29.210',
+    baseUrl: 'removed for privacy!',
 };
 
 const test = {
-    baseUrl: 'http://54.255.29.210',
+    baseUrl: 'removed for privacy!',
 };
 
 const prod = {
-    baseUrl: 'https://api.iqosmytelegram.com',
+    baseUrl: 'removed for privacy!',
 };
 
 let config = dev;
@@ -18,7 +18,7 @@ switch (process.env.REACT_APP_STAGE) {
     default: config = dev; break;
 }
 const useMockApi = false;
-const reservedFaqTitleKeywords = ['Back', 'Back to Home', 'Back to IQOS Malaysia (Official) Telegram Channel'];
+const reservedFaqTitleKeywords = ['Back', 'Back to Home', 'removed for privacy!'];
 
 export default {
     ...config,
