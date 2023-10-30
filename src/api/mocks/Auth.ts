@@ -15,20 +15,20 @@ export default class AuthGateway extends Gateway {
     async login(): GatewayResponse<LoginResponse> {
         const response = await simulateApi({
             user: {
-                role: 'user',
+                role: 'removed for privacy!',
                 isEmailVerified: false,
-                email: 'liew@double.my',
-                name: 'liew',
-                id: '61cadbe4d50b6d126dec5580',
+                email: 'removed for privacy!@removed for privacy!',
+                name: 'removed for privacy!',
+                id: 'removed for privacy!',
             },
             tokens: {
                 access: {
-                    token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2MWNhZGJlNGQ1MGI2ZDEyNmRlYzU1ODAiLCJpYXQiOjE2NDA2ODQ1ODIsImV4cCI6MTY0MDY4NjM4MiwidHlwZSI6ImFjY2VzcyJ9.iMyKlfKAh7CQ4DgDH7dbVVbQbN8wYKAXGlUX5XiPYpc',
-                    expires: '2021-12-28T10:13:02.737Z',
+                    token: 'removed for privacy!',
+                    expires: 'removed for privacy!',
                 },
                 refresh: {
-                    token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2MWNhZGJlNGQ1MGI2ZDEyNmRlYzU1ODAiLCJpYXQiOjE2NDA2ODQ1ODIsImV4cCI6MTY0MzI3NjU4MiwidHlwZSI6InJlZnJlc2gifQ.Vccoza_wR5x73GD9ckWr1W-r4jt7gTHJUGBr-QUttCE',
-                    expires: '2022-01-27T09:43:02.737Z',
+                    token: 'removed for privacy!',
+                    expires: 'removed for privacy!',
                 },
             },
         });
